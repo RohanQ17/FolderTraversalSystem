@@ -1,0 +1,56 @@
+.folder-structure {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.folder, .file {
+  margin: 5px 0;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.folder:hover, .file:hover {
+  
+  box-shadow: 0 0px 14px rgba(0, 0, 0, 0.1);
+}
+
+.folder-name, .file {
+  display: flex;
+  align-items: center;
+}
+
+.folder-contents {
+  margin-left: 20px;
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+}
+
+i {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+}
+
+.fa-folder, .fa-folder-open {
+  color: #f8d775;
+}
+
+.fa-file {
+  color: #72bcd4;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.loading {
+  color: #888;
+  font-style: italic;
+}
